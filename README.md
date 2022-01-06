@@ -1,4 +1,12 @@
-### Breaking Bad API!
-![Slide1](https://user-images.githubusercontent.com/31526195/148415203-df185896-a91b-44db-9840-544e73b75654.jpg)
-![Slide2](https://user-images.githubusercontent.com/31526195/148415209-19ae8e0e-838f-4df1-9fea-4dce7010273f.jpg)
-![Slide3](https://user-images.githubusercontent.com/31526195/148415216-c6e940a1-91b5-4e0b-b752-67107cb33ca6.jpg)
+### The Breaking Bad API
+
+This porgram pulls data from https://breakingbadapi.com/ and stores it as dataclass objects.
+
+Data from api
+
+![image](https://user-images.githubusercontent.com/31526195/148415715-27de03d2-9f49-47b2-a299-04b74b04c89f.png)
+![image](https://user-images.githubusercontent.com/31526195/148415786-d00aacb0-321c-44f3-8109-cf5fa7824ccb.png)
+![image](https://user-images.githubusercontent.com/31526195/148415806-4a46a85b-b676-463e-9538-3c5386dac16e.png)
+![image](https://user-images.githubusercontent.com/31526195/148415890-7a3e34af-aa4a-4d84-94bc-6947b031ec48.png)
+
+
