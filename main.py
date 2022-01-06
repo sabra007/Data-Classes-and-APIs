@@ -61,5 +61,45 @@ for character in response.json():
                                 character['appearance'], 
                                 character['portrayed'], 
                                 character['category']))
+    
+response = requests.get(f'{base_url}episodes/')
+
+#list of episode objects
+episodes = []
+
+for episode in response.json():
+    episodes.append(Episode(episode['episode_id'],
+                            episode['title'],
+                            episode['season'],
+                            episode['air_date'],
+                            episode['characters'],
+                            episode['episode'],
+                            episode['series']))
+
+response = requests.get(f'{base_url}quotes/')
+
+#list of quote objects
+quotes = []
+
+for quote in response.json():
+    quotes.append(Quote(quote['quote_id'],
+                        quote['quote'],
+                        quote['author'],
+                        quote['series']))
+
+response = requests.get(f'{base_url}deaths/')
+
+#list of death objects
+deaths = []
+
+for death in response.json():
+    deaths.append(Deaths(death['death_id'],
+                    death['death'],
+                    death['cause'],
+                    death['responsible'],
+                    death['last_words'],
+                    death['season'],
+                    death['episode'],
+                    death['number_of_deaths']))
 
 
